@@ -1,12 +1,16 @@
 import React from 'react';
-import './App.css';
-import Hello from './components/Hello';
+import './App.scss';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <Hello />
-    </div>
+    <>
+    <Routes>
+      <Route path="/" element={<Layout />} />
+    </Routes>
+    </>
+    
   );
 }
 
