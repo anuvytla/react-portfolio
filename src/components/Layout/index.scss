@@ -39,7 +39,10 @@
     animation-delay: 1s;
 }
 
-.about-page {
+.about-page,
+.contact-page,
+.portfolio-page,
+.resume-page {
     .text-zone{
         position: absolute;
         left:10%;
@@ -109,7 +112,7 @@
     .text-animate-hover {
         &:hover {
             color:#fff;
-            
+
         }
     }
 }

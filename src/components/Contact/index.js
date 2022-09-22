@@ -37,10 +37,10 @@ const Contact = () => {
                                 <li className='half'>
                                     <input type="email" name="email" placeholder='Email' required />
                                 </li>
-                                <li className='half'>
+                                <li>
                                     <input type="text" name="subject" placeholder='Subject' required />
                                 </li>
-                                <li className='half'>
+                                <li>
                                     <textarea name="message" placeholder='Message' required />
                                 </li>
                                 <li >
