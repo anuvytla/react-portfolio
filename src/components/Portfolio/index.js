@@ -13,25 +13,24 @@ const portfolio_data = [
     {
         title: 'Weather Dashboard',
         image_url: Weather,
-        portfolio_url:'https://github.com/anuvytla/weather-forecast'
+        github_url:'https://github.com/anuvytla/weather-forecast'
 
     },
     {
         title:'Timed Quiz',
         image_url: Quiz,
-        portfolio_url:'https://github.com/anuvytla/timed-quiz'
+        github_url:'https://github.com/anuvytla/timed-quiz'
 
     },
     {
         title:'Bon Appetit',
         image_url:Restaurant,
-        portfolio_url:'https://github.com/anuvytla/bon-appetit'
-
+        github_url:'https://github.com/anuvytla/bon-appetit'
     },
     {
         title:'B4UBOARD',
         image_url: Maps,
-        portfolio_url:'https://github.com/JackYouk/B4UBoard'
+        github_url:'https://github.com/JackYouk/B4UBoard'
 
     }
 ];
