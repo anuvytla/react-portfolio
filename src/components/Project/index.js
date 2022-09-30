@@ -1,18 +1,20 @@
 import './index.scss';
-import Restaurant from '../../assets/images/bon-appetit.jpeg';
 
-const Project = () => {
+
+const Project = ({project_info}) => {
     return (
         <>
         <div className='project-container'>
             <div className="image-box">
                 <img 
-                    src={Restaurant}
+                    src={project_info.image_url}
                     className="portfolio-image"
-                    alt="image" 
+                    alt={project_info.title} 
                 />
                 <div className="content">
-                    <a href='https://github.com/anuvytla/bon-appetit' >Bon Appetit</a>
+                    <a href={project_info.github_url}>
+                        {project_info.title}
+                    </a>
                 </div>
             </div>
         </div>

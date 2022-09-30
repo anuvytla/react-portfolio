@@ -1,31 +1,74 @@
 import './index.scss';
-import LinkedInImg from '../../assets/images/linkedin-logo.jpeg';
-import GithubImg from '../../assets/images/github-logo.png';
-import EmailImg from '../../assets/images/email-logo.jpeg';
-import TwitterImg from '../../assets/images/twitter-logo.jpeg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import {
+    faLinkedin,
+    faGithub,
+    faTwitter,
+    faGoogle,
+  } from '@fortawesome/free-brands-svg-icons';
+  
 
 const Footer = () => {
     return (
         <div className='footer'>
-            <a className='linkedin' alt='linkdein-logo' href='https://www.linkedin.com/in/lakshmi-anusha-vytla/'>
-                
-                <img src={LinkedInImg}/>
-            </a>
+            <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/lakshmi-anusha-vytla/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="#ffd700"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/bobangajicsm"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="#ffd700"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faTwitter}
+              color="#ffd700"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
 
-            <a className='github' alt='github-logo' href='https://github.com/anuvytla'>
-                
-                <img src={GithubImg}/>
-            </a>
-
-            <a className='email' alt='email-logo' href='mailto:reachinganusha@gmail.com'>
-                
-                <img src={EmailImg}/>
-            </a>
-
-            <a className='twitter' alt='twitter-logo' href='#'>
-                
-                <img src={TwitterImg}/>
-            </a>
+        <li>
+          <a
+            href="#"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faGoogle}
+              color="#ffd700"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
+        
+      </ul>
+     
             
         </div>
     )
