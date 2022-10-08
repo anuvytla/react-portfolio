@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e3efd504.css",
-    "main.js": "/react-portfolio/static/js/main.f4e71fdc.js",
+    "main.js": "/react-portfolio/static/js/main.93140b75.js",
     "static/media/B4UBOARD.png": "/react-portfolio/static/media/B4UBOARD.6091909b4b907ee7d7d2.png",
     "static/media/weather.png": "/react-portfolio/static/media/weather.5288b2ba94387974280d.png",
     "static/media/Quiz.jpeg": "/react-portfolio/static/media/Quiz.432f541b2e9bf8c6788b.jpeg",
@@ -12,10 +12,10 @@
     "static/media/CoolveticaRg-Regular.woff2": "/react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/react-portfolio/index.html",
     "main.e3efd504.css.map": "/react-portfolio/static/css/main.e3efd504.css.map",
-    "main.f4e71fdc.js.map": "/react-portfolio/static/js/main.f4e71fdc.js.map"
+    "main.93140b75.js.map": "/react-portfolio/static/js/main.93140b75.js.map"
   },
   "entrypoints": [
     "static/css/main.e3efd504.css",
-    "static/js/main.f4e71fdc.js"
+    "static/js/main.93140b75.js"
   ]
 }
