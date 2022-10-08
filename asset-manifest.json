@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e3efd504.css",
+    "main.js": "/react-portfolio/static/js/main.06ce2f5f.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/B4UBOARD.png": "/react-portfolio/static/media/B4UBOARD.6091909b4b907ee7d7d2.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.5288b2ba94387974280d.png",
+    "static/media/Quiz.jpeg": "/react-portfolio/static/media/Quiz.432f541b2e9bf8c6788b.jpeg",
+    "static/media/bon-appetit.jpeg": "/react-portfolio/static/media/bon-appetit.9639dfea47d320157d8b.jpeg",
+    "static/media/girl_avatar.jpeg": "/react-portfolio/static/media/girl_avatar.d5e0c3b48a1af87474b9.jpeg",
+    "static/media/helvetica-neu.ttf": "/react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/react-portfolio/index.html",
+    "main.e3efd504.css.map": "/react-portfolio/static/css/main.e3efd504.css.map",
+    "main.06ce2f5f.js.map": "/react-portfolio/static/js/main.06ce2f5f.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3efd504.css",
+    "static/js/main.06ce2f5f.js"
+  ]
+}
