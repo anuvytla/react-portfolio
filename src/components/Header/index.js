@@ -31,23 +31,23 @@ const Header = () => {
                 </Link>
             </div>
             <nav>
-                <NavLink exact='true' activeclassname='active' to='/'>
+                <NavLink exact='true' activeclassname='active' to='/react-portfolio/'>
                     <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
                 </NavLink>
 
-                <NavLink exact='true' activeclassname='active' className='about-link' to='/about'>
+                <NavLink exact='true' activeclassname='active' className='about-link' to='/react-portfolio/about'>
                     <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
                 </NavLink>
 
-                <NavLink exact='true' activeclassname='active' className='portfolio-link' to='/portfolio'>
+                <NavLink exact='true' activeclassname='active' className='portfolio-link' to='/react-portfolio/portfolio'>
                     <FontAwesomeIcon icon={faTasks} color='#4d4d4e' />
                 </NavLink>
 
-                <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
+                <NavLink exact='true' activeclassname='active' className='contact-link' to='/react-portfolio/contact'>
                     <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
                 </NavLink>
 
-                <NavLink exact='true' activeclassname='active' className='resume-link' to='/resume'>
+                <NavLink exact='true' activeclassname='active' className='resume-link' to='/react-portfolio/resume'>
                     <FontAwesomeIcon icon={faFile} color='#4d4d4e' />
                 </NavLink>
 
