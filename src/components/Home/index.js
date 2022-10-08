@@ -34,7 +34,7 @@ const Home = () => {
                     </h1>
                 
                     <h2>Fullstack Developer / Javascript Expert / Python Expert</h2>
-                    <Link to='/contact' className='flat-button'>CONATCT ME</Link>
+                    <Link to='/react-portfolio/contact' className='flat-button'>CONATCT ME</Link>
                     <Loader type='pacman'/>
             </div>
             </div>

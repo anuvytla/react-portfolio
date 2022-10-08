@@ -34,7 +34,7 @@ const Resume = () => {
                     
                         </h1>
                         <p>You can download my Resume By clicking download button</p>
-                        <Link className='flat-button' to='/files/Anusha_Vytla_Resume.pdf' target='_blank' download>
+                        <Link className='flat-button' to='/react-portfolio/files/Anusha_Vytla_Resume.pdf' target='_blank' download>
                             Download
                         </Link>
 

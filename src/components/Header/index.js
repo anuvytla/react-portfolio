@@ -18,7 +18,7 @@ const Header = () => {
     return (
         <div className='nav-bar'>
             <div className='text-zone'>
-                <Link className='logo' to='/'>
+                <Link className='logo' to='/react-portfolio/'>
                     <h1>
                         <AnimatedLetters
                                 letterClass={letterClass}
